@@ -1,0 +1,14 @@
+body{
+	margin: 0 auto;
+}
+h1, h2, h3{
+	color: #DCD8C4;
+	font-style: bold;
+}
+body.wrapper{
+	margin: 0 auto;
+}
+#adt{
+	float: left;
+	margin-right: 100px;
+}
