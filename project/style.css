@@ -42,8 +42,20 @@ div.result{
     background-color: rgba(62,69,68,.6);
     height: 100%;
     float: left;
+    margin-bottom: 10px;
     border: 6px solid #333333;
     box-shadow: 0 0 15px rgba(51,51,51,0.75);
+}
+
+div.result img{
+    float:left;
+}
+
+div.result .btn{
+    float:right;
+}
+div.result p{
+    display:inline-block;
 }
 
 img.avatar{
