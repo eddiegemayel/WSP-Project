@@ -3,8 +3,13 @@ body{
     background-size: cover;
     width: 1024px;
     margin: 0 auto;
+    color: #BAB4A6;
     font: 18px "century gothic",verdana,arial,helvetica,sans-serif;
     font-weight:lighter;
+}
+
+h2{
+    color: #;
 }
 
 div.cta{
