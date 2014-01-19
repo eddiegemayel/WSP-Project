@@ -1,5 +1,16 @@
+/* Colors */
+/* scheme id = 3s51Jw0w0w0w0 */
+/* Colors */
+/* Colors */
+/* Colors */
+
+
+
+
+
+
 body{
-    background: url(img/02.jpg) top center no-repeat;
+    background: url(img/background-track.jpg) top center no-repeat;
     background-size: cover;
     color: #BAB4A6;
     font: 18px "century gothic",verdana,arial,helvetica,sans-serif;
@@ -42,7 +53,7 @@ div.features button {
 }
 
 div.result{
-    background-color: rgba(62,69,68,.6);
+    background-color: rgba(62,69,68,.75);
     height: 100%;
     float: left;
     margin-bottom: 10px;
@@ -63,4 +74,8 @@ div.result p{
 
 img.avatar{
     width: 20%;
+}
+
+a.alert.button.expand{
+    background-color: #00a876;
 }
