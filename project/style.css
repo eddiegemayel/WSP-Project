@@ -25,7 +25,8 @@ body{
 
 div.cta{
     border: 6px solid #333333;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 100%;
     height: 400px;
     background-color: #666;
@@ -44,6 +45,7 @@ div.features{
     height: 200px;
     float: left;
     border: 6px solid #333333;
+    background-color: #666;
 }
 
 div.features p{
@@ -91,6 +93,7 @@ div.result{
     float: left;
     margin-bottom: 10px;
     border: 6px solid #333333;
+    background-color: #666;
 }
 
 /* 
