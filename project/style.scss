@@ -31,7 +31,6 @@ div.cta{
     margin-bottom: 25px;
     width: 100%;
     height: 400px;
-    background-color: #666;
     background: url(img/subi_1.jpg) center -300px no-repeat;
     @include box-style;
 }
@@ -46,7 +45,6 @@ div.subcta{
 div.features{
     height: 200px;
     float: left;
-    background-color: #666;
     @include box-style;
 
     button {
@@ -90,7 +88,6 @@ div.result{
             height: 100%;
             float: left;
             margin-bottom: 10px;
-            background-color: #666;
             @include box-style;
 
             img{
