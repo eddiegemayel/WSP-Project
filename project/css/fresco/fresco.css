@@ -76,6 +76,7 @@
 
 /* Bubble (holds everything) */
 .fr-bubble {
+  display: none;
   float: left;
   width: 100%;
   height: 100%;

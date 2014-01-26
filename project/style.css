@@ -95,3 +95,9 @@ img.avatar {
 a.alert.button.expand {
   background-color: #00a876;
 }
+
+div.fr-close span{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
