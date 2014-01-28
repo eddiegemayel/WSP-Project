@@ -1,6 +1,6 @@
 /* Colors */
 /* scheme id = 3s51Jw0w0w0w0 */
-/* Colors */
+/* facebook= #3b5998 */
 /* Colors */
 /* Colors */
 body {
@@ -21,9 +21,8 @@ div.cta {
   width: 100%;
   height: 400px;
   background: url(img/subi_1.jpg) center -300px no-repeat;
-  border: 6px solid #333333;
   box-shadow: 0 0 15px rgba(51, 51, 51, 0.75);
-  background-color: rgba(62, 69, 68, 0.75);
+  background-color: rgba(1, 72, 105, 0.75);
 }
 
 div.subcta {
@@ -34,9 +33,8 @@ div.subcta {
 div.features {
   height: 200px;
   float: left;
-  border: 6px solid #333333;
   box-shadow: 0 0 15px rgba(51, 51, 51, 0.75);
-  background-color: rgba(62, 69, 68, 0.75);
+  background-color: rgba(1, 72, 105, 0.75);
 }
 div.features button {
   border-color: #AB5337;
@@ -74,17 +72,29 @@ div.result {
   height: 100%;
   float: left;
   margin-bottom: 10px;
-  border: 6px solid #333333;
+  color: #333333;
+  padding: 10px 10px 10px 10px;
   box-shadow: 0 0 15px rgba(51, 51, 51, 0.75);
-  background-color: rgba(62, 69, 68, 0.75);
+  background-color: rgba(1, 72, 105, 0.75);
 }
-div.result img {
-  float: left;
+div.result .img {
+  width: 32%;
+  margin: 20px 0 0 0;
+  padding: 0 0 0 0;
+}
+div.result .content {
+  background-color: #ADADAD;
 }
 div.result .btn {
+  padding: 0 0 0 0;
+  margin: 10px 0 0 0;
   float: right;
+  position: relative;
+  z-index: 1;
 }
 div.result p {
+  margin-top: -20px;
+  font: 14px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   display: inline-block;
 }
 
@@ -94,10 +104,4 @@ img.avatar {
 
 a.alert.button.expand {
   background-color: #00a876;
-}
-
-div.fr-close span{
-  position: absolute;
-  left: 0;
-  top: 0;
 }

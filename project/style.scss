@@ -1,6 +1,6 @@
 /* Colors */
 /* scheme id = 3s51Jw0w0w0w0 */
-/* Colors */
+/* facebook= #3b5998 */
 /* Colors */
 /* Colors */
 
@@ -8,9 +8,8 @@
 $text-color: #BAB4A6;
 $font-stack: 18px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 @mixin box-style{
-    border: 6px solid #333333;
     box-shadow: 0 0 15px rgba(51,51,51,0.75);
-    background-color: rgba(62,69,68,.75);
+    background-color: rgba(1,72,105,.75);
 }
 
 body{
@@ -88,15 +87,32 @@ div.result{
             height: 100%;
             float: left;
             margin-bottom: 10px;
+            color: #333333;
+            padding: 10px 10px 10px 10px;
             @include box-style;
-
-            img{
-                float:left;
+            h2{
+                
             }
+            .img{
+                width: 32%;
+                margin: 20px 0 0 0;
+                padding: 0 0 0 0;
+            }
+
+            .content{
+                background-color: #ADADAD; 
+            }
+
             .btn{
+                padding: 0 0 0 0;
+                margin: 10px 0 0 0;
                 float:right;
+                position: relative;
+                z-index: 1;
             }
             p{
+                margin-top: -20px;
+                font: 14px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
                 display:inline-block;
             }
         }
