@@ -20,47 +20,68 @@ body{
     font-weight: lighter;
 }
 
+.logo{
+    width: 18%;
+}
+
 
 #wrapper{
     margin: 0 auto;
 }
 
 div.cta{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px auto;
     width: 100%;
     height: 400px;
-    background: url(img/subi_1.jpg) center -300px no-repeat;
+    background: url(img/clique-cta.jpg);
+    background-size: cover;
     @include box-style;
+    h1{
+        font: bold 105px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        color: #bab4a6;
+        margin-left: 20px;
+    }
+    .searchbar{
+        margin-top: 65px;
+        margin-left: 650px;
+        div{
+        padding: 0 0 0 0;
+            input{
+                height:33px;
+            }
+            a{
+                margin-right: 20px;
+            }
+        }
+    }
 }
 
 
 
 div.subcta{
-    width: 100%;
     margin-top: 15px;
-}
 
-div.features{
+    div.features{
+    background-color: rgba(51,51,51,0.75);
     height: 200px;
-    float: left;
-    @include box-style;
-
-    button {
-        border-color: #AB5337;
-        letter-spacing: 2px;
-        float: right;
-        display: block;
-        padding: 10px 10px;
-        color: #ffffff;
-        text-decoration: none;
-        margin: 5px 10px 0 0;
-        border-radius: 5px;
+    box-shadow: 0 0 15px rgba(51,51,51,0.75);
+    padding: 0 10px 10px 10px;
+    h3{
+        font-size: 30px;
+        text-shadow: 5px 0 15px rgba(51,51,51,0.75);
+        color: #096F9F;
     }
     p{
-        margin-bottom: 5px;
+        width: 250px;
+        margin: 0 0 10px 0;
     }
 
+    }
+    div.last{
+        p{
+            margin-top: -7px;
+        }
+    }
 }
  
 
@@ -70,21 +91,7 @@ input.login{
     height: 29px;
 }
 
-div.searchbar{
-    position: relative;
-    top: 200px;
-    left: 480px;
-    width: 60%;
-
-    a.button{
-        margin-left: -100px;
-        margin-top: -6px;
-    }
-}
-
-
 div.result{ 
-            height: 100%;
             float: left;
             margin-bottom: 10px;
             color: #333333;
@@ -94,15 +101,11 @@ div.result{
                 
             }
             .img{
-                width: 32%;
-                margin: 20px 0 0 0;
                 padding: 0 0 0 0;
             }
-
             .content{
                 background-color: #ADADAD; 
             }
-
             .btn{
                 padding: 0 0 0 0;
                 margin: 10px 0 0 0;
@@ -110,17 +113,43 @@ div.result{
                 position: relative;
                 z-index: 1;
             }
+            .view{
+                margin: 0 0 0 0;
+            }
             p{
-                margin-top: -20px;
+                margin-top: -10px;
+                margin-bottom: 10px;
                 font: 14px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
                 display:inline-block;
             }
         }
 
-img.avatar{
-    width: 20%;
+        a.alert.button.expand{
+            background-color: #00a876;
+        }
+
+div.login{
+    background-color: #ADADAD;
+    border: 20px solid #096F9F;
+
+    a{
+        margin: 20px 0 0 0;
+    }
+
+    input{
+        margin-bottom: 15px;
+    }
+
+    .fb.alert.button.expand{
+        background-color: #3b5998;
+    }
+
+    .lg{
+        margin-bottom: 20px;
+    }
+
 }
 
-a.alert.button.expand{
-    background-color: #00a876;
+img.avatar{
+    width: 20%;
 }
