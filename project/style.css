@@ -1,8 +1,8 @@
-/* Colors */
 /* scheme id = 3s51Jw0w0w0w0 */
 /* facebook= #3b5998 */
-/* Colors */
-/* Colors */
+/* grey= #ADADAD */
+/* blue= #096F9F */
+/* darkgrey= #333333 */
 body {
   background: url(img/background-track.jpg) top center no-repeat;
   background-size: cover;
@@ -85,9 +85,11 @@ div.result {
 }
 div.result .img {
   padding: 0 0 0 0;
+  box-shadow: 0 0 15px #333333;
 }
 div.result .content {
   background-color: #ADADAD;
+  box-shadow: 0 0 15px #333333;
 }
 div.result .btn {
   padding: 0 0 0 0;
@@ -106,8 +108,67 @@ div.result p {
   display: inline-block;
 }
 
+div.details {
+  float: left;
+  margin-bottom: 10px;
+  color: #333333;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px rgba(51, 51, 51, 0.75);
+  background-color: rgba(1, 72, 105, 0.75);
+}
+div.details .img {
+  margin-top: 20px;
+  padding: 0 0 0 0;
+  box-shadow: 0 0 15px #333333;
+}
+div.details .content {
+  box-shadow: 0 0 15px #333333;
+  background-color: #ADADAD;
+  height: 180px;
+}
+div.details .description {
+  box-shadow: 0 0 15px #333333;
+  background-color: #ADADAD;
+  height: 150px;
+  margin: 15px 0 15px 0;
+}
+div.details .btn {
+  padding: 0 0 0 0;
+  margin: 10px 0 0 0;
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+div.details .view {
+  margin: 0 0 0 0;
+}
+div.details p {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font: 14px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  display: inline-block;
+}
+div.details .list {
+  margin: 300px 0 0 0;
+}
+div.details .list li a {
+  box-shadow: 0 0 15px rgba(51, 51, 51, 0.75);
+}
+
 a.alert.button.expand {
   background-color: #00a876;
+}
+
+a.alert.button.expand.unfriend {
+  background-color: #D04242;
+}
+
+.headers {
+  padding: 20px 0 20px 0;
+}
+.headers h1 {
+  font-weight: bold;
+  color: #333333;
 }
 
 div.login {
@@ -127,6 +188,14 @@ div.login .lg {
   margin-bottom: 20px;
 }
 
-img.avatar {
-  width: 20%;
+div.signup {
+  background-color: #ADADAD;
+  border: 20px solid #096F9F;
+}
+div.signup .row {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+div.signup form {
+  padding: 30px 0 0 0;
 }

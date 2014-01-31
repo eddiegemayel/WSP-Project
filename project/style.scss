@@ -1,8 +1,9 @@
-/* Colors */
 /* scheme id = 3s51Jw0w0w0w0 */
 /* facebook= #3b5998 */
-/* Colors */
-/* Colors */
+/* grey= #ADADAD */
+/* blue= #096F9F */
+/* darkgrey= #333333 */
+
 
 
 $text-color: #BAB4A6;
@@ -23,7 +24,6 @@ body{
 .logo{
     width: 18%;
 }
-
 
 #wrapper{
     margin: 0 auto;
@@ -102,9 +102,11 @@ div.result{
             }
             .img{
                 padding: 0 0 0 0;
+                box-shadow: 0 0 15px rgba(51,51,51,1);
             }
             .content{
-                background-color: #ADADAD; 
+                background-color: #ADADAD;
+                box-shadow: 0 0 15px rgba(51,51,51,1); 
             }
             .btn{
                 padding: 0 0 0 0;
@@ -124,9 +126,71 @@ div.result{
             }
         }
 
+
+div.details{ 
+            float: left;
+            margin-bottom: 10px;
+            color: #333333;
+            padding: 10px 10px 10px 10px;
+            @include box-style;
+            h2{
+                
+            }
+            .img{
+                margin-top: 20px;
+                padding: 0 0 0 0;
+                box-shadow: 0 0 15px rgba(51,51,51,1);
+            }
+            .content{
+                box-shadow: 0 0 15px rgba(51,51,51,1);
+                background-color: #ADADAD;
+                height: 180px; 
+            }
+            .description{
+                box-shadow: 0 0 15px rgba(51,51,51,1);
+                background-color: #ADADAD;
+                height: 150px;
+                margin: 15px 0 15px 0;
+            }
+            .btn{
+                padding: 0 0 0 0;
+                margin: 10px 0 0 0;
+                float:right;
+                position: relative;
+                z-index: 1;
+            }
+            .view{
+                margin: 0 0 0 0;
+            }
+            p{
+                margin-top: -10px;
+                margin-bottom: 10px;
+                font: 14px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+                display:inline-block;
+            }
+            .list{
+                margin: 300px 0 0 0;
+                li a{
+                    box-shadow: 0 0 15px rgba(51,51,51,0.75);
+                }
+            }
+        }
+
+
         a.alert.button.expand{
             background-color: #00a876;
         }
+        a.alert.button.expand.unfriend{
+            background-color: #D04242;
+        }
+
+.headers{
+    padding: 20px 0 20px 0;
+    h1{
+        font-weight: bold;
+        color: #333333;
+    }
+}
 
 div.login{
     background-color: #ADADAD;
@@ -147,9 +211,17 @@ div.login{
     .lg{
         margin-bottom: 20px;
     }
-
 }
 
-img.avatar{
-    width: 20%;
+div.signup{
+    background-color: #ADADAD;
+    border: 20px solid #096F9F;
+    .row{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    form{
+        padding: 30px 0 0 0;
+    }
 }
+
